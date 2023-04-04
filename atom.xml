@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="https://weitangshi.github.io/blog/atom.xml" rel="self"/>
+  <link href="https://weitangshi.github.io/atom.xml" rel="self"/>
   
-  <link href="https://weitangshi.github.io/blog/"/>
+  <link href="https://weitangshi.github.io/"/>
   <updated>1985-10-26T08:15:00.000Z</updated>
-  <id>https://weitangshi.github.io/blog/</id>
+  <id>https://weitangshi.github.io/</id>
   
   <author>
     <name>old 4</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://weitangshi.github.io/blog/2023/04/03/hello-world/"/>
-    <id>https://weitangshi.github.io/blog/2023/04/03/hello-world/</id>
+    <link href="https://weitangshi.github.io/2023/04/03/hello-world/"/>
+    <id>https://weitangshi.github.io/2023/04/03/hello-world/</id>
     <published>2023-04-03T03:06:09.921Z</published>
     <updated>1985-10-26T08:15:00.000Z</updated>
     
