@@ -4,7 +4,7 @@
  * @Author: old4
  * @Date: 2023-04-06 16:28:26
  * @LastEditors: old4
- * @LastEditTime: 2023-04-06 16:28:31
+ * @LastEditTime: 2023-04-06 17:18:00
  */
 var a_idx = 0;
 jQuery(document).ready(function($) {
@@ -39,3 +39,4 @@ jQuery(document).ready(function($) {
 function delay() {
     $(".buryit").removeAttr("onclick");
 }
+
