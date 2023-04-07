@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="/blog/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/blog/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/blog/css/my.css">
-
+    <link rel="stylesheet" type="text/css" href="/blog/css/loading.css">
     <script src="/blog/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 5.4.2">
@@ -38,6 +38,37 @@
 
 
 <body>
+    <!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: old4
+ * @Date: 2023-04-07 16:23:04
+ * @LastEditors: old4
+ * @LastEditTime: 2023-04-07 16:24:00
+-->
+
+<div id="loading-box">
+    <div class="loading-left-bg"></div>
+    <div class="loading-right-bg"></div>
+    <div class="spinner-box">
+    <div class="configure-border-1">
+        <div class="configure-core"></div>
+    </div>
+    <div class="configure-border-2">
+        <div class="configure-core"></div>
+    </div>
+    <div class="loading-word">加载中...</div>
+    </div>
+</div>
+<!-- 页面加载动画 -->
+<script>
+    $(document).ready(function () {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+    })
+</script>
+
+  
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -671,6 +702,14 @@ $(function () {
      <script type="text/javascript" src="/blog/libs/others/bubble.js"></script> 
     <!--单击显示文字-->
     <script type="text/javascript" src="/blog/js/click_show_text.js"></script>
-</body>
+    <!-- 鼠标移动特效 -->
+    <script type="text/javascript" src="/blog/js/mouse_snow.js"></script>
+    <!-- 动态标签栏 -->
+    <script type="text/javascript">
+        var OriginTitile = document.title, st; 
+        document.addEventListener("visibilitychange", function () { 
+        document.hidden ? (document.title = "别走！好吗", clearTimeout(st)) : (document.title = "咦，你来啦！", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) 
+    </script>
+<script src="/blog/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/blog/live2dw/assets/miku.model.json"},"display":{"superSample":2,"width":200,"height":400,"position":"right","hOffset":100,"vOffset":-15},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false});</script></body>
 
 </html>
