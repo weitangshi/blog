@@ -2,7 +2,7 @@
 基于[hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery)，做了一些个性c化定制。
 
 ## 我的博客演示地址
-[https://weitangshi.github.io/LF_blog/](https://weitangshi.github.io/LF_blog/)
+[https://weitangshi.github.io/blog/](https://weitangshi.github.io/blog/)
 
 ## Hexo创建文章
 ```sh
