@@ -2,7 +2,7 @@ name: Deploy Hexo to GitHub Pages
 
 on:
   push:
-    branches: [master]  # 当推送到 main 分支时触发
+    branches: [main]  # 当推送到 main 分支时触发
     paths-ignore: # 下列文件变更不触发部署
       - README.md
 
