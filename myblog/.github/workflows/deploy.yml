@@ -2,23 +2,28 @@ name: Deploy Hexo to GitHub Pages
 
 on:
   push:
-    branches:
-      - master  # 当推送到 master 分支时触发
+    branches: [master]  # 当推送到 main 分支时触发
+    paths-ignore: # 下列文件变更不触发部署
+      - README.md
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      npm_config_registry: https://registry.npmmirror.com/
 
     steps:
+      # 下载源码
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           submodules: false  # 禁用子模块检查
 
+      # 打包构建
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 'v18.14.0'
+          node-version: '18.14.0'
 
       - name: Install Dependencies
         run: npm install
