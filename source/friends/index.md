@@ -14,6 +14,6 @@ layout: 'friends'
 
 例如我的博客友链，大家可以加到自己博客里哦：
 * **名称：**OLD4
-* **地址：**https://weitangshi.gitee.io
-* **简介：**我不是大佬，只是在追寻大佬的脚步
-* **头像：**https://weitangshi.gitee.io/medias/avatars/mycsdn.png
+* **地址：**https://weitangshi.github.io/blog/
+* **简介：**我想要的不是一时的热度，而是长久的温度
+* **头像：**https://weitangshi.github.io.io/medias/avatars/mycsdn.png

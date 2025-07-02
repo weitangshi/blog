@@ -1,7 +1,21 @@
 [{
+  "avatar": "https://avatars.githubusercontent.com/u/56811244?s=96&v=4",
+  "name": "old4",
+  "introduction": "我想要的不是一时的热度，而是长久的温度",
+  "url": "https://blog.csdn.net/qq_41163341?type=blog",
+  "title": "本人博客"
+},{
   "avatar": "/medias/avatars/mycsdn.png",
   "name": "小林犟",
   "introduction": "我不是大佬，只是在追寻大佬的脚步",
   "url": "https://blog.csdn.net/weixin_41387351?type=blog",
-  "title": "本人博客"
-}]
+  "title": "小林犟博客"
+},
+{
+  "avatar": "/medias/avatars/mycsdn.png",
+  "name": "小林犟",
+  "introduction": "我不是大佬，只是在追寻大佬的脚步",
+  "url": "https://yunfulin.github.io/LF_blog/",
+  "title": "小林犟github博客"
+}
+]
