@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>OLD4_blog</title>
+  
+  <subtitle>good good study</subtitle>
+  <link href="https://weitangshi.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://weitangshi.github.io/"/>
+  <updated>2025-07-03T08:29:57.031Z</updated>
+  <id>https://weitangshi.github.io/</id>
+  
+  <author>
+    <name>OLD4_blog</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://weitangshi.github.io/undefined/hello-world.html"/>
+    <id>https://weitangshi.github.io/undefined/hello-world.html</id>
+    <published>2025-07-03T08:29:57.031Z</published>
+    <updated>2025-07-03T08:29:57.031Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript事件循环、微任务与MutationObserver全面解析</title>
+    <link href="https://weitangshi.github.io/notes/no-003.html"/>
+    <id>https://weitangshi.github.io/notes/no-003.html</id>
+    <published>2023-10-12T02:30:21.000Z</published>
+    <updated>2025-07-03T08:29:57.033Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;JavaScript事件循环、微任务与MutationObserver全面解析&quot;&gt;&lt;a href=&quot;#JavaScript事件循环、微任务与MutationObserver全面解析&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://weitangshi.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JavaScript" scheme="https://weitangshi.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>png图片给背景添加阴影</title>
+    <link href="https://weitangshi.github.io/notes/no-004.html"/>
+    <id>https://weitangshi.github.io/notes/no-004.html</id>
+    <published>2022-10-09T18:56:37.000Z</published>
+    <updated>2025-07-03T08:29:57.033Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;效果图&quot;&gt;&lt;a href=&quot;#效果图&quot; class=&quot;headerlink&quot; title=&quot;效果图&quot;&gt;&lt;/a&gt;效果图&lt;/h3&gt;&lt;img src=&quot;/blog/notes/no-004/1.jpeg&quot; class=&quot;&quot;&gt;
+
+&lt;h3 id=&quot;代码&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://weitangshi.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="css" scheme="https://weitangshi.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue移动端适配（vue-cli 3/4）</title>
+    <link href="https://weitangshi.github.io/notes/no-002.html"/>
+    <id>https://weitangshi.github.io/notes/no-002.html</id>
+    <published>2021-10-12T00:30:21.000Z</published>
+    <updated>2025-07-03T08:29:57.033Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;项目场景：&quot;&gt;&lt;a href=&quot;#项目场景：&quot; class=&quot;headerlink&quot; title=&quot;项目场景：&quot;&gt;&lt;/a&gt;项目场景：&lt;/h2&gt;&lt;p&gt;Vue项目H5页面，只要求适配移动端&lt;font color=&quot;red&quot;&gt;（vue 2.6 + @vue/cli</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://weitangshi.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Vue" scheme="https://weitangshi.github.io/tags/Vue/"/>
+    
+    <category term="postcss" scheme="https://weitangshi.github.io/tags/postcss/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装vue脚手架@vue/cli 4.5.13(稳定版)</title>
+    <link href="https://weitangshi.github.io/notes/no-001.html"/>
+    <id>https://weitangshi.github.io/notes/no-001.html</id>
+    <published>2021-10-09T18:56:37.000Z</published>
+    <updated>2025-07-03T08:29:57.031Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;首先新建一个&lt;font color=&quot;red&quot;&gt; vue &lt;/font&gt;测试项目，还记得以前自己是用&lt;font color=&quot;red&quot; bgcolor=&quot;yellow&quot;&gt; vue-cli 2.0的版本</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://weitangshi.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Vue" scheme="https://weitangshi.github.io/tags/Vue/"/>
+    
+    <category term="vue-cli" scheme="https://weitangshi.github.io/tags/vue-cli/"/>
+    
+  </entry>
+  
+</feed>
